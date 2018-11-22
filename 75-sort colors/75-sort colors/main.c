@@ -9,20 +9,28 @@
 #include <stdio.h>
 
 void sortColors(int* nums, int numsSize) {
-    int bucket[3] = {0};
-    for (int i=0;i<numsSize;i++) {
-        bucket[*(nums+i)]++;
-    }
-    int k=0;
-    for (int j=0;j<3;j++) {
-        while (bucket[j] > 0) {
-            *(nums+k) = j;
-            k++;
-            bucket[j]--;
+    int zero = -1;
+    int two = numsSize;
+    int temp;
+    
+    for (int i =0; i < two; i++) {
+        if (*(nums + i) == 1) {
+            i ++;
+        } else if (*(nums + i) == 2) {
+            --two;
+            temp = *(nums + i);
+            *(nums + i) = *(nums + two);
+            *(nums + two) = temp;
+        } else { // 0
+            ++zero;
+            temp = *(nums + i);
+            *(nums + i) = *(nums + zero);
+            *(nums + zero) = temp;
         }
     }
-    
 }
+
+
 int main(int argc, const char * argv[]) {
     int a[] = {2,0,2,1,1,0};
     sortColors(a, 6);
