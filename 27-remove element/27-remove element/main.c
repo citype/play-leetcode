@@ -23,6 +23,7 @@ int removeElement(int* nums, int numsSize, int val) {
         nums_copy[count] = nums[i];
         count++;
     }
+
     for(int j = 0;j<count; j++) {
         nums[j] = nums_copy[j];
     }
