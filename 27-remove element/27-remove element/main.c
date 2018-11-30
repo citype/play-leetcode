@@ -10,24 +10,16 @@
 #include <stdlib.h>
 
 int removeElement(int* nums, int numsSize, int val) {
-    int count = 0;
-    int len = 0;
-    int *nums_copy;
-    nums_copy = (int *)malloc(numsSize * sizeof(int));
-    
-    for (int i =0;i<numsSize;i++) {
-        if (val == nums[i]) {
-            len ++ ;
-            continue;
+    int i = 0;
+    int j = 0;
+    while (j < numsSize) {
+        if (nums[j] == val) {
+            j++;
+        } else {
+            nums[i++] = nums[j++];
         }
-        nums_copy[count] = nums[i];
-        count++;
     }
-
-    for(int j = 0;j<count; j++) {
-        nums[j] = nums_copy[j];
-    }
-    return count;
+    return i;
 }
 
 int main(int argc, const char * argv[]) {
