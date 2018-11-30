@@ -9,7 +9,6 @@
 #include <stdio.h>
 /**
  a e i o u
-
  */
 
 char* reverseVowels(char* s) {
@@ -32,8 +31,6 @@ char* reverseVowels(char* s) {
     }
     return s;
 }
-
-
 
 int main(int argc, const char * argv[]) {
     char s[] = "leetcode";
