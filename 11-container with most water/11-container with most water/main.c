@@ -9,18 +9,14 @@
 #include <stdio.h>
 int maxArea(int* height, int heightSize) {
     int max_area = 0;
-    int area;
-    for (int i = 0; i< heightSize; i++) {
-        for(int j = i; j< heightSize; j++) {
-            if (height[i] > height[j]) {
-                area = height[j]*(j-i);
-            } else {
-                area = height[i] * (j-i);
-            }
-            if (max_area < area) {
-                max_area = area;
-            }
-        }
+    int left = 0;
+    int right = heightSize - 1;
+    while (left<right) {
+        int length = right - left;
+        int min = height[left] < height[right] ? height[left++] : height[right--];
+        int area = min * length;
+        max_area = max_area < area ? area : max_area;
+
     }
     return max_area;
 }
