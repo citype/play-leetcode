@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0844B66D21C0F18F00516847 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0844B66C21C0F18F00516847 /* main.c */; };
+		08F542E321E9D9A90027B4B9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08F542E221E9D9A90027B4B9 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0844B66721C0F18F00516847 /* CopyFiles */ = {
+		08F542DD21E9D9A90027B4B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0844B66921C0F18F00516847 /* arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
-		0844B66C21C0F18F00516847 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		08F542DF21E9D9A90027B4B9 /* 167 add two sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "167 add two sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F542E221E9D9A90027B4B9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0844B66621C0F18F00516847 /* Frameworks */ = {
+		08F542DC21E9D9A90027B4B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0844B66021C0F18F00516847 = {
+		08F542D621E9D9A90027B4B9 = {
 			isa = PBXGroup;
 			children = (
-				0844B66B21C0F18F00516847 /* arithmetic */,
-				0844B66A21C0F18F00516847 /* Products */,
+				08F542E121E9D9A90027B4B9 /* 167 add two sum */,
+				08F542E021E9D9A90027B4B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0844B66A21C0F18F00516847 /* Products */ = {
+		08F542E021E9D9A90027B4B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0844B66921C0F18F00516847 /* arithmetic */,
+				08F542DF21E9D9A90027B4B9 /* 167 add two sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0844B66B21C0F18F00516847 /* arithmetic */ = {
+		08F542E121E9D9A90027B4B9 /* 167 add two sum */ = {
 			isa = PBXGroup;
 			children = (
-				0844B66C21C0F18F00516847 /* main.c */,
+				08F542E221E9D9A90027B4B9 /* main.c */,
 			);
-			path = arithmetic;
+			path = "167 add two sum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0844B66821C0F18F00516847 /* arithmetic */ = {
+		08F542DE21E9D9A90027B4B9 /* 167 add two sum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0844B67021C0F18F00516847 /* Build configuration list for PBXNativeTarget "arithmetic" */;
+			buildConfigurationList = 08F542E621E9D9A90027B4B9 /* Build configuration list for PBXNativeTarget "167 add two sum" */;
 			buildPhases = (
-				0844B66521C0F18F00516847 /* Sources */,
-				0844B66621C0F18F00516847 /* Frameworks */,
-				0844B66721C0F18F00516847 /* CopyFiles */,
+				08F542DB21E9D9A90027B4B9 /* Sources */,
+				08F542DC21E9D9A90027B4B9 /* Frameworks */,
+				08F542DD21E9D9A90027B4B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = arithmetic;
-			productName = arithmetic;
-			productReference = 0844B66921C0F18F00516847 /* arithmetic */;
+			name = "167 add two sum";
+			productName = "167 add two sum";
+			productReference = 08F542DF21E9D9A90027B4B9 /* 167 add two sum */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0844B66121C0F18F00516847 /* Project object */ = {
+		08F542D721E9D9A90027B4B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = xihe;
 				TargetAttributes = {
-					0844B66821C0F18F00516847 = {
+					08F542DE21E9D9A90027B4B9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 0844B66421C0F18F00516847 /* Build configuration list for PBXProject "arithmetic" */;
+			buildConfigurationList = 08F542DA21E9D9A90027B4B9 /* Build configuration list for PBXProject "167 add two sum" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0844B66021C0F18F00516847;
-			productRefGroup = 0844B66A21C0F18F00516847 /* Products */;
+			mainGroup = 08F542D621E9D9A90027B4B9;
+			productRefGroup = 08F542E021E9D9A90027B4B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0844B66821C0F18F00516847 /* arithmetic */,
+				08F542DE21E9D9A90027B4B9 /* 167 add two sum */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0844B66521C0F18F00516847 /* Sources */ = {
+		08F542DB21E9D9A90027B4B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0844B66D21C0F18F00516847 /* main.c in Sources */,
+				08F542E321E9D9A90027B4B9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0844B66E21C0F18F00516847 /* Debug */ = {
+		08F542E421E9D9A90027B4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		0844B66F21C0F18F00516847 /* Release */ = {
+		08F542E521E9D9A90027B4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		0844B67121C0F18F00516847 /* Debug */ = {
+		08F542E721E9D9A90027B4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		0844B67221C0F18F00516847 /* Release */ = {
+		08F542E821E9D9A90027B4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0844B66421C0F18F00516847 /* Build configuration list for PBXProject "arithmetic" */ = {
+		08F542DA21E9D9A90027B4B9 /* Build configuration list for PBXProject "167 add two sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0844B66E21C0F18F00516847 /* Debug */,
-				0844B66F21C0F18F00516847 /* Release */,
+				08F542E421E9D9A90027B4B9 /* Debug */,
+				08F542E521E9D9A90027B4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0844B67021C0F18F00516847 /* Build configuration list for PBXNativeTarget "arithmetic" */ = {
+		08F542E621E9D9A90027B4B9 /* Build configuration list for PBXNativeTarget "167 add two sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0844B67121C0F18F00516847 /* Debug */,
-				0844B67221C0F18F00516847 /* Release */,
+				08F542E721E9D9A90027B4B9 /* Debug */,
+				08F542E821E9D9A90027B4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0844B66121C0F18F00516847 /* Project object */;
+	rootObject = 08F542D721E9D9A90027B4B9 /* Project object */;
 }

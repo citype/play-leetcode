@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:arithmetic.xcodeproj">
+      location = "self:633-sum of square numbers.xcodeproj">
    </FileRef>
 </Workspace>
